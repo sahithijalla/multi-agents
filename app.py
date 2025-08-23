@@ -7,7 +7,7 @@ st.set_page_config(page_title="Multi-Agent Chat", page_icon="🤖", layout="cent
 # --- Load secrets safely ---
 HF_TOKEN = st.secrets.get("HF_TOKEN") or os.getenv("HF_TOKEN")
 GROQ_API_KEY = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
-TOMORROW_API_KEY = st.secrets.get("TOMORROW_API_KEY") or os.getenv("TOMORROW_API_KEY") or "KL5eyVNrvwAiNpS4xWOBww4CpblJtTb4"
+TOMORROW_API_KEY = st.secrets.get("TOMORROW_API_KEY") or os.getenv("TOMORROW_API_KEY")
 
 # --- Init agent router ---
 agent = MasterAgent(weather_api_key=TOMORROW_API_KEY, hf_token=HF_TOKEN, groq_api_key=GROQ_API_KEY)
