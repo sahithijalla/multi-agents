@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import math
 import requests
 
@@ -50,7 +50,6 @@ class WeatherTool:
             return f"The weather in {location} is {code} with {temp}°C."
         except Exception:
             return "Weather service unavailable."
-=======
 import math
 import requests
 
@@ -102,4 +101,4 @@ class WeatherTool:
             return f"The weather in {location} is {code} with {temp}°C."
         except Exception:
             return "Weather service unavailable."
->>>>>>> 009c7f40a46f6eb5daa382c9f14285354145d16a
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 from typing import Optional, List
 
@@ -177,7 +177,6 @@ class MasterAgent:
             if result:
                 return result
         return self.llm.handle(query)
-=======
 import os
 from typing import Optional, List
 
@@ -356,4 +355,4 @@ class MasterAgent:
             if result:
                 return result
         return self.llm.handle(query)
->>>>>>> 009c7f40a46f6eb5daa382c9f14285354145d16a
+
